@@ -1,0 +1,69 @@
+body{
+  background: #f2f5f6;
+  min-width: 500px;
+  min-height: 180px;
+  color: dimGray;
+  font-size: 12px;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  padding-left: 5px;
+}
+a{
+  color: #315BB4;
+}
+textarea{
+  resize: none;
+}
+div.container{
+  margin-bottom: 5px;
+  padding: 2px;
+}
+div.title_header{
+  font-size: 1.3em;
+  float: left;
+  font-weight: bold;
+}
+div.settings{
+  padding-top: 5px;
+  float: right;
+  font-size: 1em;
+}
+div.powered_by{
+  clear: left;
+}
+div.chronus_header{
+  height: 18px;
+  color: dimGray;
+  font-size: 11px;
+  font-weight: normal;
+  margin: 12px 0;
+}
+div.error_container{
+  font-weight: bold;
+}
+div.success_flash{
+  padding: 5px;
+  margin-top: 25px;
+  background-color: #FFB;
+  border: 1px solid #CC5;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+div.error_flash{
+  padding: 5px;
+  margin-top: 25px;
+  border: 1px solid #DD3C10;
+  background: #FFEBE8 none repeat scroll 0;
+}
+.help_text{
+  font-size: 0.9em;
+}
+a#reset_button{
+  padding-left: 8px;
+}
+.ajax_loading{
+  display: none;
+}
+td.label{
+  font-weight: bold;
+}
